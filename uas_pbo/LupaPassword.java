@@ -143,7 +143,7 @@ public class LupaPassword extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(null, "Username tidak boleh kosong");
             return;
         }
-        EntityManagerFactory emf = Persistence.createEntityManagerFactory("PBO_TM13PU");
+        EntityManagerFactory emf = Persistence.createEntityManagerFactory("UAS_PBOPU");
         EntityManager em = emf.createEntityManager();
         
         try {
@@ -179,7 +179,7 @@ public class LupaPassword extends javax.swing.JFrame {
     }
     String username = tfUsername.getText();
 
-    EntityManagerFactory emf = Persistence.createEntityManagerFactory("PBO_TM13PU");
+    EntityManagerFactory emf = Persistence.createEntityManagerFactory("UAS_PBOPU");
     EntityManager em = emf.createEntityManager();
 
     try {
